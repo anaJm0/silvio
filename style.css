@@ -8,7 +8,9 @@
 }
 
 body{
-    background: linear-gradient(135deg, orange 60%, cyan);
+    background: radial-gradient(ellipse at top, #e66465, transparent),
+              radial-gradient(ellipse at bottom, #a020f0, transparent),
+              radial-gradient(circle at 10%, #1974d1, transparent);
     color: var(--primary-color);
     font-family: var(--font);
     height: 100vh;
