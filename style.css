@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: var(--bg-color);
+    background: linear-gradient(135deg, orange 60%, cyan);
     color: var(--primary-color);
     font-family: var(--font);
     height: 100vh;
@@ -39,6 +39,7 @@ nav a{
     margin: 0 2rem 1rem 0rem;
     font-size: 1.2rem;
 }
+
 
 nav a:hover{
     text-decoration: underline;
@@ -76,3 +77,5 @@ footer{
     height: 3rem;
     margin-top: 2rem;
 }
+section{
+    background-image: url("");
